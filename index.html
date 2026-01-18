@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Assignment-2 | Techwave</title>
 </head>
-<body>
-    <h1>hello this is 2nd assignment</h1>
-
-
-
-
+<body class="font-[Inter]">
+    <header class="bg-[#1A0B2E]">
+        <nav class="w-full max-w-[75rem] m-auto flex items-center justify-between py-4 px-5 sm:py-[1.875rem]">
+            <div class="logo max-w-3xs">
+                <img class="max-w-[8.56rem] sm:max-w-[13.75rem]" src="./assets/TechWave-Logo.png" alt="Techwave Logo">
+            </div>
+            <div class="hidden sm:flex sm:gap-[2rem] text-base font-medium text-white cursor-pointer">
+                <a class="transition-all duration-300 hover:text-[#00FF88]" href="#">About</a>
+                <a class="transition-all duration-300 hover:text-[#00FF88]" href="#">Episodes</a>
+                <a class="transition-all duration-300 hover:text-[#00FF88]" href="#">Host</a>
+            </div>
+            <div class="">
+                <button class=" hidden sm:flex gap-1 font-semibold text-white py-3 px-4 transition-all duration-300 [background:linear-gradient(45deg,#F7E93F,#FB09B4,#9100F8)] hover:[background:linear-gradient(45deg,#FB09B4,#9100F8,#F7E93F)] rounded-full cursor-pointer">Subscribe <img class="max-w-5" src="./assets/ArrowRight.png" alt="arrow right icon"></button>
+                <button class="sm:hidden cursor-pointer"><img src="./assets/hamburger-menu.png" alt="menu"></button>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
