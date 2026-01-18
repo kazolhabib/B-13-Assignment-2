@@ -9,8 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Assignment-2 | Techwave</title>
 </head>
-<body class="font-[Inter]">
-    <header class="bg-[#1A0B2E]">
+<body class="font-[Inter] text-white">
+    <header class="bg-[#1A0B2E] border-b border-b-[#412567]">
         <nav class="w-full max-w-[75rem] m-auto flex items-center justify-between py-4 px-5 sm:py-[1.875rem]">
             <div class="logo max-w-3xs">
                 <img class="max-w-[8.56rem] sm:max-w-[13.75rem]" src="./assets/TechWave-Logo.png" alt="Techwave Logo">
@@ -26,7 +26,25 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="bg-[#1A0B2E] bg-[url('./assets/hero-bg-image.png')] bg-no-repeat bg-center bg-cover">
+            <div class="w-full max-w-2xl m-auto flex flex-col gap-6 sm:gap-10 items-center text-center px-5 py-10 sm:py-[6.25rem]">
+                <div class="relative flex justify-center items-center">
+                <img class="w-52 h-52 sm:w-full sm:h-auto" src="./assets/hero-circle.png" alt="hero-circle icon">
+                <img class="absolute w-12 h-fit sm:w-fit sm:h-fit" src="./assets/microphone.png" alt="microphone icon">
+                <div class="absolute top-0 right-0 bg-[#00FF88] text-[#1A0B2E] text-base sm:text-lg font-semibold py-1.5 px-4 rounded-full mt-1 sm:mt-3 sm:mr-6 shadow-[0px_3px_27px_0px_rgba(0,255,136,0.5)]">NEW</div>
+            </div>
+            <div>
+                <h1 class=" text-[2.5rem] sm:text-6xl font-extrabold mb-4">TechWave</h1>
+                <p class="text-base">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="w-full flex justify-center gap-2 mt-6">
+                    <button class="inline-flex flex items-center gap-2 font-semibold py-3 px-5 transition-all duration-300 [background:linear-gradient(45deg,#F7E93F,#FB09B4,#9100F8)] hover:[background:linear-gradient(45deg,#FB09B4,#9100F8,#F7E93F)] rounded-full cursor-pointer"><img class="max-w-5 h-5" src="./assets/spotify.png" alt="spotify icon"> Listen on Spotify</button>
+                    <button class="inline-flex flex items-center gap-2 font-semibold py-3 px-5 text-[#00FF88] transition-all duration-300 bg-transparent hover:bg-[#FFFFFF] hover:text-[#000000] border border-[#00FF88] hover:border-[#FFFFFF] rounded-full cursor-pointer"><img class="max-w-5 h-5" src="./assets/clarity_email-line.png" alt=""> Subscribe</button>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
